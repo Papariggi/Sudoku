@@ -23,7 +23,7 @@ X11 = 2, X21 = 1, X22 = 2.
 The same is done for a 9x9 Sudoku.
 
 # Prolog Generator
-To auto-generate a NxN Sudoku generator and solver, run sudokuGenerator.scm with ```(display (generate-sudoku-prolog-program 4))```.
+To auto-generate a NxN Sudoku generator and solver, run sudokuGenerator.scm with ```(display (generate-sudoku-prolog-program N))``` where N is some integer.
 
 # Online Interpreter
 An online interpreter for Prolog can be found here:
